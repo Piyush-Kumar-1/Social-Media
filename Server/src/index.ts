@@ -18,7 +18,7 @@ import { Updoot } from "./enitity/Updoot";
 const main = async () => {
   const conn = await createConnection({
     type: "postgres",
-    database: "lireddit3",
+    database: "lireddit",
     username: "postgres",
     password: "ENTER YOUR PASSWORD",
     logging: true,
